@@ -1,5 +1,6 @@
 //your code here
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+
 export default class Comment extends from Component {
   render(){
     return (
