@@ -4,7 +4,9 @@ import React, { Component } from 'react';
 export default class Comment extends from Component {
   render(){
     return (
-      <div className="comment">{this.props.commentText}</div>
+      <div className="comment">
+      {this.props.commentText}
+      </div>
     )
   }
 }
